@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-top {
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.wrap {
+    margin: 20px 50px
+}
+
+.body-column {
+    flex: 50%;
+}
+
+.body-full {
+    flex: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    line-height: 30px;
+    margin: 5px 0px;
+}
+
+.margin-card {
+    margin: 16px 0px !important
+}
+
+.body-full-2 {
+    line-height: 22px !important;
+}
+
+.title {
+    margin-bottom: 3px;
+}
+
+.sub-title {
+    margin-top: 0px;
+    font-size: 18px;
+}
+
+.column-div-left {
+    flex: 1;
+}
+
+.column-div-right {
+    flex: 50px 0 0;
+}
+
+.val-perc {
+    text-align: right;
+}
+
+.type-class-1 {
+    text-transform: uppercase;
+    display: inline-block
+}
+
+.symbol {
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.class-others {
+    color: gray;
+    line-height: 60px;
+    display: inline-block;
+}
+
+.type-class-1,
+.val-perc {
+    font-size: 14px;
+}
+
+.column-div2-left {
+    flex: 1
+}
+
+.column-div2-right1 {
+    flex: 150px 0 0;
+    text-align: right;
+    margin: 0px 20px;
+}
+
+.column-div1-right2 {
+    flex: 50px 0 0;
+    text-align: right;
+}
+
+.margin-bew {
+    margin-bottom: 10px;
+}
+
+
+/* Rounded border */
+
+div.hr-1 {
+    border-top: 8px solid rgb(5, 218, 182);
+}
+
+hr.hr-2 {
+    border-top: 1px solid rgb(91, 99, 97);
+}
+
+.scolor {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+.scolor-r {
+    background-color: red;
+}
+
+.scolor-o {
+    background-color: orange;
+}
+
+.scolor-g {
+    background-color: green;
+}
+
+.val-color {
+    color: rgb(91, 99, 97);
+}
+
+.body-bottom {}
+
+.body-column-1 {
+    flex: 50%;
+    display: flex;
+    flex-direction: column-reverse !important;
+}
+
+.no-cb {
+    color: rgb(46, 241, 241);
+    font-size: 30px;
+    margin: 0px;
+}
+
+.no-cb-v {
+    font-size: 14px;
+    margin: 0px 0px 30px 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .body-column {
+        width: 100%;
+    }
+}
